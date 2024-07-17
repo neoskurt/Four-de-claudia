@@ -75,11 +75,6 @@ hr {
   height: 0;
   overflow: visible; }
 
-  html, body {
-    height: 100%;
-    overflow: auto;
-  }
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -7525,7 +7520,6 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    overflow: auto;
     height: 750px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
