@@ -344,6 +344,8 @@ h1, h2, h3, h4, h5,
 	}
 	&.home-slider {
 		position: relative;
+		overflow: hidden;
+        touch-action: pan-y;
 		height: 750px;
 		z-index: 0;
 		.slider-item {
