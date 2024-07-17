@@ -62,6 +62,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  -webkit-overflow-scrolling: touch; 
   overflow-y: auto;
   background-color: #fff; }
 
@@ -73,6 +74,11 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
+
+  html, body {
+    height: 100%;
+    overflow: auto;
+  }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
