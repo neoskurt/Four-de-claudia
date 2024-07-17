@@ -349,6 +349,7 @@ h1, h2, h3, h4, h5,
 		height: 750px;
 		z-index: 0;
 		.slider-item {
+			pointer-events: none;
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center center;
